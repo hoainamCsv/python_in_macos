@@ -16,7 +16,7 @@
 		7722A13229D5439700AB858D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7722A13129D5439700AB858D /* SystemConfiguration.framework */; };
 		7722B0D129D5596100AB858D /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7722B0CF29D5591100AB858D /* Python.xcframework */; };
 		7722B6E129D564DB00AB858D /* test_python_in_swift.py in Resources */ = {isa = PBXBuildFile; fileRef = 7722B6E029D564DB00AB858D /* test_python_in_swift.py */; };
-		7722B6E329D569E100AB858D /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 7722B6E229D569E100AB858D /* python-stdlib */; };
+		7722B6E529D56BAC00AB858D /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 7722B6E429D56BAC00AB858D /* python-stdlib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		7722A13129D5439700AB858D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7722B0CF29D5591100AB858D /* Python.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Python.xcframework; sourceTree = "<group>"; };
 		7722B6E029D564DB00AB858D /* test_python_in_swift.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test_python_in_swift.py; sourceTree = "<group>"; };
-		7722B6E229D569E100AB858D /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "python-stdlib"; path = "../../../../Downloads/Python-3.11-macOS-support.b1 (1)/python-stdlib"; sourceTree = "<group>"; };
+		7722B6E429D56BAC00AB858D /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "python-stdlib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 		77229AF029D5421B00AB858D = {
 			isa = PBXGroup;
 			children = (
-				7722B6E229D569E100AB858D /* python-stdlib */,
+				7722B6E429D56BAC00AB858D /* python-stdlib */,
 				7722B6E029D564DB00AB858D /* test_python_in_swift.py */,
 				7722B0CF29D5591100AB858D /* Python.xcframework */,
 				77229AFB29D5421B00AB858D /* test_python_swift */,
@@ -277,8 +277,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7722B6E529D56BAC00AB858D /* python-stdlib in Resources */,
 				7722B6E129D564DB00AB858D /* test_python_in_swift.py in Resources */,
-				7722B6E329D569E100AB858D /* python-stdlib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
