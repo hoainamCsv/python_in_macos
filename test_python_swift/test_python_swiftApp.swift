@@ -7,10 +7,14 @@
 
 import SwiftUI
 
+
 @main
 struct test_python_swiftApp: App {
+
     var body: some Scene {
+
         WindowGroup {
+            
             ContentView()
         }
     }
